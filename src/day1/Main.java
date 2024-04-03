@@ -1,3 +1,5 @@
+package day1;
+
 /**
  * The following class contains the main method for the project that initializes the objects and displays the output.
  * The program works with pre-input values in its current state but will have GUI functionalities and output when complete

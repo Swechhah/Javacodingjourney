@@ -1,3 +1,5 @@
+package day1;
+
 /**
  * The following class initializes the variables and methods to be used.
  * In its current state the program can calculate the percentage and determine if passed or failed for pre-established objects.
@@ -26,10 +28,10 @@ public class SubjectMarksDetails {
      * @param s
      * @return percentage
      */
-     public  double calculatePercentage(SubjectMarksDetails s){
-         //calculate the percentage of individual subjects
+    public  double calculatePercentage(SubjectMarksDetails s){
+        //calculate the percentage of individual subjects
         double percentage = ((double)s.subjectObtainedMarks/s.subjectFullmarks)*100;
         return percentage;
-     }
+    }
 
 }
