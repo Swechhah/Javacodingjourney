@@ -4,4 +4,5 @@ This is the repository documenting my journey into learning back-end development
 In the first week, a few basic java softwares were created to better understand the fundamentals of Java. 
 
 [Day 1](https://github.com/Swechhah/Javacodingjourney/tree/Week1/src/day1)
+
 [Day 2](https://github.com/Swechhah/Javacodingjourney/tree/Week1/src/day2)
