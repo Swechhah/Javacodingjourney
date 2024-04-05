@@ -5,5 +5,11 @@ The program does not have any user input.
 
 [Day 1](https://github.com/Swechhah/Javacodingjourney/tree/Week1/src/day1)
 
-In the secind day, the program from Day 1 was modified to allow uder input and allowed the uder to determine the number of subjects that can be inout and calculated.
+On the second day, the program from Day 1 was modified to allow uder input and allowed the uder to determine the number of subjects that can be inout and calculated.
+
 [Day 2](https://github.com/Swechhah/Javacodingjourney/tree/Week1/src/day2)
+
+On the third day, a quiz is created in Java that displays the questions and options and allows users to input their answers that are then computed and their total scores are displayed. The program follows a repeatative procedural paradigm which will be modidied to object oriented in the upcoming days.
+
+[Day 3](https://github.com/Swechhah/Javacodingjourney/tree/Week1/src/day3)
+
