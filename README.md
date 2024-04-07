@@ -17,3 +17,7 @@ On the fourth day, the quiz on the third day was modified with arrays and loops 
 
 [Day 4](src/day4)
 
+On the fifth day, hashmap was used to modify the quiz. With that the questions can now be randomized. All the optentional user input errors and exceptions were also handled.
+
+[Day 5](src/day5)
+
