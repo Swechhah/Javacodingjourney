@@ -24,3 +24,7 @@ On the fifth day, hashmap was used to modify the quiz. With that the questions c
 On the sixth day, a program was created along with a sample text file that is able to read the files and count the number of lines and characters within the  files and display it. File and Scanner class were used along with the necessary exception handling.
 
 [Day 6](src/day6)
+
+On the seventh day, a program was created that used bubblesort to sort through an array and arrange the integer elements into an ascending order. The resulting array is hten displayed
+
+[Day 7](src/day7)
