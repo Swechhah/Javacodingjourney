@@ -21,3 +21,6 @@ On the fifth day, hashmap was used to modify the quiz. With that the questions c
 
 [Day 5](src/day5)
 
+On the sixth day, a program was created along with a sample text file that is able to read the files and count the number of lines and characters within the  files and display it. File and Scanner class were used along with the necessary exception handling.
+
+[Day 6](src/day6)
