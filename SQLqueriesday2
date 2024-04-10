@@ -1,0 +1,36 @@
+On this day, the attributes, along with their relationships and roles were established.
+The tqables were used to determine the type of data to be stored within the database.
+ a. AboutInfo table
+     -Name(PK)
+     -Title
+     - Description
+      
+
+   b. Services Table
+     - Service ID(PK)
+     - Service Name
+     - Description
+     -AboutName(FK)
+   
+
+   c. Skills Table
+     - Skill ID(PK)
+     - Skill Name
+     - Description
+     -AboutName(FK)
+   
+
+   d. Projects Table
+     - Project ID(PK)
+     - Project Name
+     - Description
+     - Start Date
+     - Completion Date
+      
+
+   e. ContactInfo Table
+     - Contact ID(PK)
+     - Name
+     - Email
+     - Phone
+      -AboutName(FK)
