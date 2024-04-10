@@ -6,3 +6,8 @@ In the second week, the relational database was created along with the tables an
 The details of the first day of the second week of project is given here.
 
 [day1](SQLqueriesday1)
+
+Thes econd day consisted of determining the relationships between tables and identifying the primary and foreign keys within the tables present.
+
+[day2](SQLqueriesday2)
+
