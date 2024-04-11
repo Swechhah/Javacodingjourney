@@ -1,7 +1,8 @@
 On this day, the attributes, along with their relationships and roles were established.
 The tables were used to determine the type of data to be stored within the database.
  a. AboutInfo table
-     -FullName(PK)
+     -InfoID(PK)
+     -FullName
      -Title
      - Description
       
@@ -10,14 +11,14 @@ The tables were used to determine the type of data to be stored within the datab
      - Service ID(PK)
      - Service Name
      - Description
-     -FullName(FK)
+     -InfoID(FK)
    
 
    c. Skills Table
      - Skill ID(PK)
      - Skill Name
      - Description
-     -FullName(FK)
+     -InfoID(FK)
    
 
    d. Projects Table
