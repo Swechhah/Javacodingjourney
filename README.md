@@ -7,7 +7,13 @@ The details of the first day of the second week of project is given here.
 
 [day1](SQLqueriesday1)
 
-Thes econd day consisted of determining the relationships between tables and identifying the primary and foreign keys within the tables present.
+Thes second day consisted of determining the relationships between tables and identifying the primary and foreign keys within the tables present.
 
 [day2](SQLqueriesday2)
+
+The third day consisted of creating an entity relationship digram as well as creating the database and tables for the system.
+
+[Entity Relationship Diagram](PortfolioManagemnetSystemERD.jpg)
+
+[day3](SQLqueriesday3)
 
