@@ -4,3 +4,6 @@ This is the repository documenting my journey into learning back-end development
 In the first week, a few basic java softwares were created to better understand the fundamentals of Java. 
 
 The details of the first week of project is given [here](https://github.com/Swechhah/Javacodingjourney/tree/Week1#readme).
+
+In the second week, a database is prepared to be connected to the application for proper data storage and management.
+The details of second week of the project is given [here](https://github.com/Swechhah/Javacodingjourney/tree/Week2)
