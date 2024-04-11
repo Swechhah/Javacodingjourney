@@ -1,0 +1,48 @@
+On the third day of the database design, the database and its subsequent tables were created in the database management system. 
+For this, the final entity relationship diagram was created.
+Then the mysql was accessed by using the command 'mysql -u username -p'
+Then, the database was created with the CREATE DATABASE portfolio_management_system query
+After this, the USE portfolio_management_system query was input
+then the tables were created as follows:
+
+ CREATE TABLE AboutInfo(
+    InfoID INT,
+    FullName VARCHAR(255),
+    Title VARCHAR(255),
+    Description VARCHAR(255),
+    PRIMARY KEY(InfoID));
+
+CREATE TABLE Services (
+    ServiceID INT AUTO_INCREMENT,
+    ServiceName VARCHAR(100),
+    Description TEXT,
+    InfoID INT,
+    PRIMARY KEY (ServiceID),
+    FOREIGN KEY (InfoID) REFERENCES AboutInfo(InfoID)
+);
+
+CREATE TABLE Skills (
+    SkillID INT AUTO_INCREMENT,
+    SkillName VARCHAR(100),
+    Description TEXT,
+    InfoID INT,
+    PRIMARY KEY (SkillID),
+    FOREIGN KEY (InfoID) REFERENCES AboutInfo(InfoID)
+);
+
+CREATE TABLE Projects (
+    ProjectID INT AUTO_INCREMENT,
+    ProjectName VARCHAR(100),
+    Description TEXT,
+    StartDate DATE,
+    CompletionDate DATE,
+    PRIMARY KEY (ProjectID)
+);
+
+CREATE TABLE ContactInfo (
+    ContactID INT AUTO_INCREMENT,
+    Name VARCHAR(100),
+    Email VARCHAR(100),
+    Phone VARCHAR(20),
+    PRIMARY KEY (ContactID)
+);
