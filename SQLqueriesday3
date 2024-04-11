@@ -1,5 +1,5 @@
 On the third day of the database design, the database and its subsequent tables were created in the database management system. 
-For this, the final entity relationship diagram was created.
+For this, the final entity relationship diagram was created which can be accessed [here](PortfolioManagemnetSystemERD.jpg)
 Then the mysql was accessed by using the command 'mysql -u username -p'
 Then, the database was created with the CREATE DATABASE portfolio_management_system query
 After this, the USE portfolio_management_system query was input
