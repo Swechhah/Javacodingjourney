@@ -12,8 +12,14 @@ Thes second day consisted of determining the relationships between tables and id
 [day2](SQLqueriesday2)
 
 The third day consisted of creating an entity relationship digram as well as creating the database and tables for the system.
+[day3](SQLqueriesday3)
 
 [Entity Relationship Diagram](PortfolioManagemnetSystemERD.jpg)
 
-[day3](SQLqueriesday3)
+The fourth day consisted of adding manual values in the databse system to be able to perform various queries in the database.
+Similarly a dump file was created so that the databse can be easily recreated in other domains 
+
+[day4](SQLqueriesday4)
+
+[dump file](portfolio_dump_file.sql)
 
