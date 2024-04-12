@@ -12,6 +12,7 @@ Thes second day consisted of determining the relationships between tables and id
 [day2](SQLqueriesday2)
 
 The third day consisted of creating an entity relationship digram as well as creating the database and tables for the system.
+
 [day3](SQLqueriesday3)
 
 [Entity Relationship Diagram](PortfolioManagemnetSystemERD.jpg)
