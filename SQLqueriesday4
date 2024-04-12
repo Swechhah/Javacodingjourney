@@ -1,0 +1,46 @@
+Here, manual values were added to the database to perform various other queries within the database. 
+The insert queries are written below and the dump file has been uploaded as well.
+
+1. Queries in AboutInfo table
+INSERT INTO AboutInfo (InfoID, FullName, Title, Description) VALUES 
+    (1,'Sita Thapa', 'Software Engineer', 'Experienced software engineer with expertise in web development.'),
+    (2,'Ram Sharma', 'Graphic Designer', 'Creative designer specializing in small business and personal branding.'),
+    (3,'Hari Shrestha', 'Web Developer', 'Experienced web developer capable of designing and developing websites.'),
+    (4,'Gita Rai', 'Marketing Manager', 'Outstanding marketing research and marketing plan and program development.'),
+    (5,'Krishna Khatri', 'Project Manager', 'Organizational planning and project development and management.');
+
+2. Queries in Services table
+INSERT INTO Services (ServiceName, Description, InfoID) 
+VALUES 
+    ('Web Development', 'Designing and developing responsive websites.', 1),
+    ('Graphic Design', 'Creating visually appealing designs for various purposes.', 2),
+    ('Mobile App Development', 'Developing custom mobile applications for Android and iOS platforms.', 3),
+    ('SEO Services', 'Improving website visibility and ranking on search engines.', 4),
+    ('Content Writing', 'Producing high-quality written content for websites and blogs.', 5);
+
+3. Queries in Skills table
+INSERT INTO Skills (SkillName, Description, InfoID) 
+VALUES 
+    ('HTML/CSS', 'Proficient in HTML and CSS for front-end development.', 1),
+    ('Adobe Photoshop', 'Skilled in using Adobe Photoshop for graphic designing.', 2),
+    ('JavaScript', 'Strong understanding of JavaScript programming language.', 3),
+    ('SEO Optimization', 'Expertise in optimizing websites for search engines.', 4),
+    ('Content Creation', 'Ability to create engaging and informative content.', 5);
+
+4. Queries in Projects table
+INSERT INTO Projects (ProjectName, Description, StartDate, CompletionDate) 
+VALUES 
+    ('E-commerce Website', 'Built an e-commerce website for a client.', '2023-01-01', '2023-03-15'),
+    ('Corporate Branding', 'Designed branding materials for a corporate client.', '2023-04-01', '2023-05-15'),
+    ('Mobile App Development', 'Developed a mobile app for a startup company.', '2023-06-01', '2023-08-15'),
+    ('SEO Campaign', 'Conducted an SEO campaign to improve website rankings.', '2023-09-01', '2023-10-15'),
+    ('Content Writing Project', 'Produced high-quality content for a content marketing campaign.', '2023-11-01', '2023-12-15');
+    
+5. Queries in ContactInfo table
+INSERT INTO ContactInfo (Name, Email, Phone) 
+VALUES 
+    ('Nabin Adhikari', 'nabin123@gmail.com', '9841234567'),
+    ('Anita Lama', 'lama.anita@hotmail.com', '9812345678'),
+    ('Suresh Thapa', 'suresht@yahoo.com', '9823456789'),
+    ('Bimala Gurung', 'bimala1995@hotmail.com', '9834567890'),
+    ('Rajesh Bhandari', 'rajeshbhan@gmail.com', '9845678901');
