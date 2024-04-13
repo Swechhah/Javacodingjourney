@@ -1,0 +1,24 @@
+On the fifth day, a few basic queries were executed in the database based on the manually entered data within the system. 
+The queries were executed by using a script file to store the queries which has been uploaded alongside.
+
+The five basic queries done are as follows:
+
+1. Query to display data on projects whose completion date is after a certain date.
+SELECT * FROM Projects WHERE CompletionDate > '2023-06-01';
+
+2. Query to count all the projects starting from a particular start date
+
+SELECT StartDate, COUNT(*) AS NumProjects
+FROM Projects
+GROUP BY StartDate;
+
+3. Query to display first five data retrieved
+SELECT * FROM Skills LIMIT 5;
+
+4. Query to display the projects that have started later than the average start date
+SELECT * FROM Projects WHERE StartDate > (SELECT AVG(StartDate) FROM Projects);
+
+5. Query to join two tables to display the interconnected data and information
+SELECT Projects.*, Skills.SkillName, Skills.Description
+FROM Projects
+LEFT JOIN Skills ON Projects.ProjectID = Skills.InfoID;
