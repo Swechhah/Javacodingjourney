@@ -5,22 +5,28 @@ In the second week, the relational database was created along with the tables an
 
 The details of the first day of the second week of project is given here.
 
-[day1](SQLqueriesday1)
+[Day 1](SQLqueriesday1)
 
 Thes second day consisted of determining the relationships between tables and identifying the primary and foreign keys within the tables present.
 
-[day2](SQLqueriesday2)
+[Day 2](SQLqueriesday2)
 
 The third day consisted of creating an entity relationship digram as well as creating the database and tables for the system.
 
-[day3](SQLqueriesday3)
+[Day 3](SQLqueriesday3)
 
 [Entity Relationship Diagram](PortfolioManagemnetSystemERD.jpg)
 
 The fourth day consisted of adding manual values in the databse system to be able to perform various queries in the database.
 Similarly a dump file was created so that the databse can be easily recreated in other domains 
 
-[day4](SQLqueriesday4)
+[Day 4](SQLqueriesday4)
 
-[dump file](portfolio_dump_file.sql)
+[Dump File](portfolio_dump_file.sql)
 
+The fifth day consisted of inserting various kinds of simple queries among the manually entered data in the database. 
+The queries were executed using a script file that was directly executed into the comand line.
+
+[Day 5](SQLqueriesday5)
+
+[Script File](MySQLQueryScript.sql)
