@@ -34,3 +34,7 @@ The queries were executed using a script file that was directly executed into th
 The sixth day consisted of connecting to the database using a Java program. For this, the database driver was connected to intellij code editor after which the code was executed. The external mysql-8.3.0 connector was connected and the code was executed.
 
 [Day 6](SQLDatabaseConnection.java)
+
+The seventh day consisted of extracting and displaying the data in the database that has been uploaded manually.
+
+[Day 7](DataRetrieval.java)
