@@ -7,3 +7,7 @@ The details of the first week of project is given [here](https://github.com/Swec
 
 In the second week, a database is prepared to be connected to the application for proper data storage and management.
 The details of second week of the project is given [here](https://github.com/Swechhah/Javacodingjourney/tree/Week2)
+
+The third week consists of learning the basics of spring and using spring to design and create a web application
+
+[Spring](https://github.com/Swechhah/Javacodingjourney/tree/spring-basics)
