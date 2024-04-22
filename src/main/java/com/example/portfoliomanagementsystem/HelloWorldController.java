@@ -10,7 +10,7 @@ public class HelloWorldController {
     @RequestMapping
     public String helloWorld() {
         // This method returns the string "Hello World from Spring Boot" as the response to any HTTP request.
-        return "Hello World from Spring Boot";
+        return "Hello World from Spring Boot. This is the new save.";
     }
 }
 
