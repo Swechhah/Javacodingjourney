@@ -22,7 +22,7 @@ public class CheckHTTPresponse {
     @Test
     public void shouldPassIfStringMatches(){
         // This assertion checks if the response from the server matches the expected string.
-        assertEquals("Hello World from Spring Boot. This is the new save where I will post about my journey in spring",
+        assertEquals("Hello World from Spring Boot. This is the new save where I will post about my journey in spring everyday.",
                 // This method sends a GET request to the specified URL (constructed using the injected port) and retrieves the response as a String.
                 testRestTemplate.getForObject("http://localhost:" + port + "/",
                         String.class));
